@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	gogogrpc "github.com/gogo/protobuf/grpc"
-	abci "F/abci/types"
+	abci "github.com/soominhyunwoo/tendermint/abci/types"
 	"google.golang.org/grpc"
 
 	"github.com/soominhyunwoo/chain-sdk/codec/types"
