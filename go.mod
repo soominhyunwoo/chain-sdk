@@ -33,10 +33,15 @@ require (
 	github.com/prometheus/common v0.23.0
 	github.com/rakyll/statik v0.1.7
 	github.com/rs/zerolog v1.21.0
+	github.com/soominhyunwoo/btcd v0.0.1
+	github.com/soominhyunwoo/chain-amino v0.0.1
 	github.com/soominhyunwoo/chain-proto v0.0.1
+	github.com/soominhyunwoo/crypto v0.0.1
 	github.com/soominhyunwoo/go-bip39 v0.0.1
-	github.com/soominhyunwoo/iavl v0.0.6
+	github.com/soominhyunwoo/iavl v0.0.7
 	github.com/soominhyunwoo/ledger-chain-go v0.0.2
+	github.com/soominhyunwoo/tendermint v0.0.6
+	github.com/soominhyunwoo/tm-db v0.0.2
 	github.com/spf13/afero v1.3.4 // indirect
 	github.com/spf13/cast v1.3.1
 	github.com/spf13/cobra v1.1.3
@@ -44,15 +49,10 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.7.1
 	github.com/stretchr/testify v1.7.0
-	github.com/soominhyunwoo/btcd v0.0.1
-	github.com/soominhyunwoo/crypto v0.0.1
-	github.com/soominhyunwoo/chain-amino v0.0.1
-	github.com/soominhyunwoo/tendermint v0.0.6
-	github.com/soominhyunwoo/tm-db v0.0.2
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad
 	golang.org/x/sys v0.0.0-20210510120138-977fb7262007 // indirect
 	google.golang.org/genproto v0.0.0-20210114201628-6edceaf6022f
-	google.golang.org/grpc v1.37.1
+	google.golang.org/grpc v1.38.0
 	google.golang.org/protobuf v1.26.0
 	gopkg.in/ini.v1 v1.61.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0
