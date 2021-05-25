@@ -1,0 +1,34 @@
+syntax = "proto3";
+package soominhyunwoo.authz.v1beta1;
+
+import "google/api/annotations.proto";
+import "soominhyunwoo/base/query/v1beta1/pagination.proto";
+import "soominhyunwoo/authz/v1beta1/authz.proto";
+
+option go_package = "github.com/soominhyunwoo/chain-sdk/x/authz";
+
+// Query defines the gRPC querier service.
+service Query {
+  // Returns list of `Authorization`, granted to the grantee by the granter.
+  rpc Grants(QueryGrantsRequest) returns (QueryGrantsResponse) {
+    option (google.api.http).get = "/soominhyunwoo/authz/v1beta1/grants";
+  }
+}
+
+// QueryGrantsRequest is the request type for the Query/Grants RPC method.
+message QueryGrantsRequest {
+  string granter = 1;
+  string grantee = 2;
+  // Optional, msg_type_url, when set, will query only grants matching given msg type.
+  string msg_type_url = 3;
+  // pagination defines an pagination for the request.
+  soominhyunwoo.base.query.v1beta1.PageRequest pagination = 4;
+}
+
+// QueryGrantsResponse is the response type for the Query/Authorizations RPC method.
+message QueryGrantsResponse {
+  // authorizations is a list of grants granted for grantee by granter.
+  repeated soominhyunwoo.authz.v1beta1.Grant grants = 1;
+  // pagination defines an pagination for the response.
+  soominhyunwoo.base.query.v1beta1.PageResponse pagination = 2;
+}

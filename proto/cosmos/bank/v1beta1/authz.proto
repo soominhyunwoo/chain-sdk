@@ -1,0 +1,17 @@
+syntax = "proto3";
+package soominhyunwoo.bank.v1beta1;
+
+import "gogoproto/gogo.proto";
+import "soominhyunwoo_proto/soominhyunwoo.proto";
+import "soominhyunwoo/base/v1beta1/coin.proto";
+
+option go_package = "github.com/soominhyunwoo/chain-sdk/x/bank/types";
+
+// SendAuthorization allows the grantee to spend up to spend_limit coins from
+// the granter's account.
+message SendAuthorization {
+  option (soominhyunwoo_proto.implements_interface) = "Authorization";
+
+  repeated soominhyunwoo.base.v1beta1.Coin spend_limit = 1
+      [(gogoproto.nullable) = false, (gogoproto.castrepeated) = "github.com/soominhyunwoo/chain-sdk/types.Coins"];
+}
