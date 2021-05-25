@@ -2,7 +2,7 @@ package types
 
 import (
 	"github.com/soominhyunwoo/chain-sdk/codec"
-	"github.com/chain-sdk/codec/types"
+	"github.com/soominhyunwoo/chain-sdk/codec/types"
 	govtypes "github.com/soominhyunwoo/chain-sdk/x/gov/types"
 )
 
