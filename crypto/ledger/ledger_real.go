@@ -2,7 +2,7 @@
 
 package ledger
 
-import ledger "github.com/soominhyunwoo/ledger-soominhyunwoo-go"
+import ledger "github.com/soominhyunwoo/ledger-chain-go"
 
 // If ledger support (build tag) has been enabled, which implies a CGO dependency,
 // set the discoverLedger function which is responsible for loading the Ledger
