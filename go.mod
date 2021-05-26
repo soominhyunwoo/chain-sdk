@@ -40,7 +40,7 @@ require (
 	github.com/soominhyunwoo/go-bip39 v0.0.1
 	github.com/soominhyunwoo/iavl v0.0.7
 	github.com/soominhyunwoo/ledger-chain-go v0.0.2
-	github.com/soominhyunwoo/tendermint v0.0.15
+	github.com/soominhyunwoo/tendermint v0.0.16
 	github.com/soominhyunwoo/tm-db v0.0.4
 	github.com/spf13/afero v1.3.4 // indirect
 	github.com/spf13/cast v1.3.1

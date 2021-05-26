@@ -648,6 +648,8 @@ github.com/soominhyunwoo/protobuf v0.0.1 h1:OHEc+q5iIAXpqiqFKeLpu5NwTIkVXUs48vFM
 github.com/soominhyunwoo/protobuf v0.0.1/go.mod h1:2DjTFR1HhMQhiWC5sZ4OhQ3+NtdbZ6oBDKQwq5Ou+FI=
 github.com/soominhyunwoo/tendermint v0.0.15 h1:xtFjBI08EdECaiZV9agTBvOFZfFSmzjLvVsJUet5Z8w=
 github.com/soominhyunwoo/tendermint v0.0.15/go.mod h1:A+mUlXPblmV0zvATkgTBpJl2k33GQTDXMVfhpHYtMcA=
+github.com/soominhyunwoo/tendermint v0.0.16 h1:G9kKmWxpkiBxT4hri9b+15QFtqbQkWbCwS8wWMjMp6c=
+github.com/soominhyunwoo/tendermint v0.0.16/go.mod h1:p87Bk2R9lhYiAhGceFprEWHIHQpi2p0Vx1FmnetKVF0=
 github.com/soominhyunwoo/tm-db v0.0.4/go.mod h1:+XrdyJ4Ck949iN9YtO7k5DNZuLj1yQKj2fCn7e/dCus=
 github.com/spaolacci/murmur3 v0.0.0-20180118202830-f09979ecbc72/go.mod h1:JwIasOWyU6f++ZhiEuf87xNszmSA2myDM2Kzu9HwQUA=
 github.com/spaolacci/murmur3 v1.1.0 h1:7c1g84S4BPRrfL5Xrdp6fOJ206sU9y293DDHaoy0bLI=
